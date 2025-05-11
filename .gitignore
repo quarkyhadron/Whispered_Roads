@@ -1,0 +1,11 @@
+# caches and local saves
+game/cache
+game/saves
+
+# compiled renpy objects (only work files are under vc)
+*.rpyc
+*.rpymc
+
+# logs are not under vc
+log.txt
+errors.txt
