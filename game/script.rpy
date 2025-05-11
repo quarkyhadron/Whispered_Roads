@@ -53,8 +53,5 @@ label start:
     voice—{w=0.5}probably arguing with his game console again.{/i}
     """
 
-    """
-    Test modification
-    """
     # This ends the game.
     return
