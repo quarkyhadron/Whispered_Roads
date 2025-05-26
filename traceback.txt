@@ -1,0 +1,24 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 151, in script
+    char_reidMom "My baby... {sc=3}uuUuuuUUUuu...!{/sc}"
+Exception: Sayer 'char_reidMom' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 151, in script
+    char_reidMom "My baby... {sc=3}uuUuuuUUUuu...!{/sc}"
+  File "E:\renpy-8.3.7-sdk\renpy\ast.py", line 2586, in execute
+    Say.execute(self)
+  File "E:\renpy-8.3.7-sdk\renpy\ast.py", line 583, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "E:\renpy-8.3.7-sdk\renpy\ast.py", line 472, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'char_reidMom' is not defined.
+
+Windows-10-10.0.26100 AMD64
+Ren'Py 8.3.7.25031702
+Whispered Roads 1.0
+Sun May 25 22:47:35 2025

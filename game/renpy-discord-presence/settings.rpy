@@ -15,6 +15,8 @@ define discord.main_menu_state = { "details" : "In the Main Menu.",
 define discord.start_state = { "details" : "Reading the Story.",
                                "large_image" : "lezalith"}
 
+define discord.start_label = "start"
+
 # The state is a Dict with all the properties of the presence state displayed when the game is launched.
 # keys correspond not to Presence Fields, but to pypresence arguments! 
 # They are all well described in Readme, but here is a cheat sheet from pypresence documentation:
